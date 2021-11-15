@@ -1,0 +1,7 @@
+class Animal 
+{
+	public void test()
+	{
+		System.out.println("move around...");
+	}
+}

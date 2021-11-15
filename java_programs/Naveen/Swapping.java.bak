@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class Swapping 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the first Value To A S wap");
+		int a = sc.nextInt();
+		System.out.println("Enter the second Value To Swap");
+		int b= sc.nextInt();
+		int sum;
+		sum = a+b;
+		a = sum - a;
+		b = sum - b;
+		System.out.println("After swapping the value of A = "+a);
+		System.out.println("After swapping the value of A = "+b);
+
+	}
+}

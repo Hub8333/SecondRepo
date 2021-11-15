@@ -1,0 +1,18 @@
+class Money
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Start Main...");
+        typeThePin();
+        collect();
+		System.out.println("End Main...");
+	}
+	public static void typeThePin()
+	{
+		System.out.println("Enter The Pin");
+	}
+	public static void collect()
+	{
+		System.out.println("Take The Money");
+	}
+}

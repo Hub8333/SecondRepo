@@ -1,0 +1,7 @@
+class Test1 extends Test 
+{
+	public void built2()
+	{
+		System.out.println("i will built...");
+	}
+}

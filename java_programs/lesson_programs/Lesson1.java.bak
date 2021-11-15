@@ -1,0 +1,18 @@
+/* static members can be accessed through object, coz every object is connected with static pool area*/
+class Lesson1
+{
+	public static int a = 56;
+	public int main(int b)
+	{
+         System.out.println(b);
+		 return b;
+	}
+
+	public static void main(String[] args) 
+	{
+		Lesson1 d1 = new Lesson1();
+		System.out.println(d1.a);
+		d1.main(33);
+       System.out.println(d1.main(55));
+	}
+}

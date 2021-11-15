@@ -1,0 +1,20 @@
+class MergeTwo 
+{
+	public static void main(String[] args) 
+	{
+		int first[] = {10,20,50};
+		int second[] = {70,80,30};
+		int third[] = new int [first.length + second.length];
+		int count = 0;
+		for (int i = 0; i < first.length; i++)
+		{
+			third[count] = first[i];
+			count++;
+		} 
+		for (int i = 0; i < second.length; i++)
+		{
+			third[count] = second[i];
+			count++;
+		} 
+	}
+}

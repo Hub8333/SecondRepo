@@ -1,0 +1,7 @@
+class  Demo
+{
+	public void move()
+	{
+		System.out.println("move south...");
+	}
+}

@@ -1,0 +1,7 @@
+class O extends O
+{
+	public void car()
+	{
+		System.out.println("White Car");
+	}
+}

@@ -1,0 +1,16 @@
+class Demo 
+{
+	public void main(int a,int b)
+	{
+		System.out.println(a+b);
+		
+	   
+	}
+	public static void main(String[] args) 
+	{
+		Demo d1 = new Demo();
+		d1.main(2,5);
+		System.out.println(d1.main(2,3));
+	}
+}
+ 

@@ -1,0 +1,7 @@
+class Draw 
+{
+	public void (Shape shape)
+	{
+		shape.findArea();
+	}
+}

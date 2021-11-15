@@ -1,0 +1,4 @@
+abstract class Demo 
+{
+	abstract static public void test(); 
+}

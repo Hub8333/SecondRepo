@@ -1,0 +1,8 @@
+class X 
+{
+	public int i = 199;
+	public void main()
+	{
+		System.out.println("own value i = "+i);
+	}
+}

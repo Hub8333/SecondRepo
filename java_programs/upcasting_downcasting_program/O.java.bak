@@ -1,0 +1,8 @@
+class O extends N
+{
+	public int c = 300;
+	public void run()
+	{
+		System.out.println("Dive for "+c+" meters");
+	}
+}

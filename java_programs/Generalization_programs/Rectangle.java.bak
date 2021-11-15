@@ -1,0 +1,7 @@
+class Rectangle 
+{
+	public void removeColour()
+	{
+		System.out.println("use to remove the colour");
+	}
+}

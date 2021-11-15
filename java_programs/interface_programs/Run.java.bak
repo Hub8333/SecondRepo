@@ -1,0 +1,6 @@
+interface Run 
+{
+	public static int a = 24;
+}
+
+

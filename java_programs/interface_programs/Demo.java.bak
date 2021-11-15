@@ -1,0 +1,4 @@
+interface Demo 
+{
+	public static void test();
+}

@@ -1,0 +1,9 @@
+class String1 
+{
+	public static void main(String[] args) 
+	{
+		char[] ch = {'h','e','l','l','o'};
+		static String str = new String();
+		System.out.println(str);
+	}
+}

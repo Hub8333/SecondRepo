@@ -1,0 +1,17 @@
+class Gun 
+{
+	public String gName; /* Key feature*/
+	public int bullets; /* Comparision feature*/
+
+	public Gun(String gName,int bullets)
+	{
+		this.gName = gName;
+		this.bullets = bullets;
+	}
+
+	public String toString()
+	{
+		return this.gName+" has "+this.bullets+" bullets to fire";
+	}
+
+}

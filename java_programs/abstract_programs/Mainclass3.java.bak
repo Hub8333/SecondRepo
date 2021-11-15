@@ -1,0 +1,10 @@
+class Mainclass3 
+{
+	public static void main(String[] args) 
+	{
+		B b1 = new B();
+		b1.move();
+		C c1 = new C();
+		c1.move();
+	}
+}

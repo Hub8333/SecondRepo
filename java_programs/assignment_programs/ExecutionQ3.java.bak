@@ -1,0 +1,27 @@
+class ExecutionQ3 
+{
+	public static char a = '*';
+	public boolean status = false;
+
+	public static int test1()
+	{
+		int i = 22;
+		return i;
+	}
+	public double test2()
+	{
+		double j = 5.5;
+		return j;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Starts...");
+		int p = test1();
+		System.out.println(p);
+		ExecutionQ3 obj = new ExecutionQ3();
+		double q = obj.test2();
+		System.out.println(q);
+		System.out.println(a);
+		System.out.println(obj.status);
+	}
+}

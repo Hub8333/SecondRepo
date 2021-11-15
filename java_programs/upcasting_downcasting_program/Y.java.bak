@@ -1,0 +1,9 @@
+class Y extends X 
+{
+	public int j = 299;
+	public void main1()
+	{
+		System.out.println("Inherited value i = "+i);
+		System.out.println("own value j = "+j);
+	}
+}

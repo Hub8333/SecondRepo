@@ -1,0 +1,7 @@
+class Cat extends Animal 
+{
+	public void present()
+	{
+		System.out.println("Cat chases rat");
+	}
+}

@@ -1,0 +1,8 @@
+class Z extends X  
+{
+	public int k = 399;
+	public void main2()
+	{
+		System.out.println("Enemies Ahead...");
+	}
+}

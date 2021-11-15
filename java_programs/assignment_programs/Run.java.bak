@@ -1,0 +1,6 @@
+class Run 
+{
+	public static int i = 1500;
+	public int j = 1200;
+	  
+}
