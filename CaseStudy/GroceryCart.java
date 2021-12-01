@@ -34,7 +34,7 @@ public class GroceryCart {
 	}
 
 	public static void check() {
-
+		
 	}
 
 	public static void menu() {
@@ -43,7 +43,7 @@ public class GroceryCart {
 		System.out.println("Enter 2 to view items");
 		System.out.println("Enter 3 to delete the items");
 		System.out.println("Enter 4 to search the item");
-		int choice = sc.nextInt();
+	//	int choice = sc.nextInt();
 	}
 
 }
